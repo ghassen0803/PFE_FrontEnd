@@ -1,0 +1,21 @@
+body{
+margin: 0;
+background-color: rgb(212,204,195);
+}
+.card{
+  background-color: azure;
+  margin-top:30px ;
+  margin-left:  100px;
+  width: 40%;
+  height: 10%;
+  align-items: center;
+  border: 5px solid rgba(0,0,0,0.75);
+  padding: 60px 60px 0px;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+.imgstyle{
+  height: "150pt";
+  weight: "150pt";
+  border-radius : "20px";
+}
