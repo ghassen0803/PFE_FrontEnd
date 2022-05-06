@@ -3,7 +3,7 @@ export const stock = [
     {
         id: 1,
         title: "PC FX8350 RX470",
-        img: "img/pc1.jpg",
+        img: "img/article1.jpg",
         price: 6300,
         brand: "AMD",
         info: "PC GAMER et PROFESSIONNEL AMD FX 8350 8 Cores 4.2 GHZ, AMD RADEON RX 470 4GB GDDR5",
@@ -14,7 +14,7 @@ export const stock = [
     {
         id: 2,
         title: "PC i7 RTX 2060",
-        img: "img/pc2.png",
+        img: "img/article2.jfif",
         price: 15900,
         brand: "INTEL",
         info: "PC GAMER et PROFESSIONNEL i7 9700KF 8 Cores 8 Threads 4.9GHZ , Nvidia Geforce RTX 2060 6GB GDDR6",
@@ -25,7 +25,7 @@ export const stock = [
     {
         id: 3,
         title: "PC i7 RTX 2080",
-        img: "img/pc3.jpg",
+        img: "img/article3.jfif",
         price: 20500,
         brand: "INTEL",
         info: "PC GAMER et PROFESSIONNEL i7 9700KF 8 Cores 16 Threads 4.9GHZ , Nvidia Geforce RTX 2080 8GB GDDR6",
@@ -36,7 +36,7 @@ export const stock = [
     {
         id: 4,
         title: "PC i7 RTX 2080Ti",
-        img: "img/pc4.jpg",
+        img: "img/article4.jfif",
         price: 26700,
         brand: "INTEL",
         info: "PC GAMER et PROFESSIONNEL i7 9700KF 8 Cores 16 Threads 4.9GHZ , Nvidia Geforce RTX 2080 ti 11GB GDDR6",

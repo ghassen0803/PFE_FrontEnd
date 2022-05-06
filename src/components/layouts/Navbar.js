@@ -10,13 +10,13 @@ import logo from '../../assets/logo.png'
 export default class Navbar extends Component {
     render() {
         return (
-            <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
+            <NavWrapper className="navbar  navbar-dark px-sm-5" style={{ background: "red" }}>
                 <Link to='/'>
-                    <img src={ logo } alt="Logo" className="navbar-brand" style={{ width: "65px" }} />
+                    <img src={ logo } alt="Logo" className="navbar-brand" style={{ width: "65px" } } />
                 </Link>
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
-                        <Link to="/" className="nav-link">
+                        <Link to="/" className="nav-link" style={{ color:"Black" }}>
                             ELFOULADH
                         </Link>
                     </li>
