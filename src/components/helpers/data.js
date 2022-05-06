@@ -2,7 +2,7 @@
 export const stock = [
     {
         id: 1,
-        title: "PC FX8350 RX470",
+        title: "PRODUIT TREFILES",
         img: "img/article1.jpg",
         price: 6300,
         brand: "AMD",
@@ -13,7 +13,7 @@ export const stock = [
     },
     {
         id: 2,
-        title: "PC i7 RTX 2060",
+        title: "ROND BETANT",
         img: "img/article2.jfif",
         price: 15900,
         brand: "INTEL",
@@ -24,8 +24,8 @@ export const stock = [
     },
     {
         id: 3,
-        title: "PC i7 RTX 2080",
-        img: "img/article3.jfif",
+        title: "STRUCTURE METALIQUE",
+        img: "img/article3.jpg",
         price: 20500,
         brand: "INTEL",
         info: "PC GAMER et PROFESSIONNEL i7 9700KF 8 Cores 16 Threads 4.9GHZ , Nvidia Geforce RTX 2080 8GB GDDR6",
@@ -35,7 +35,7 @@ export const stock = [
     },
     {
         id: 4,
-        title: "PC i7 RTX 2080Ti",
+        title: "DIVERS",
         img: "img/article4.jfif",
         price: 26700,
         brand: "INTEL",
