@@ -1,36 +1,29 @@
-import React from 'react';
-import './App.css';
-import Formation from './components/card';
-import Details from './components/details';
-import Menu from './components/menu';
-import { Container, Row, Col } from 'react-grid-system';
-function App() {
-  const PersDetail = Details.map(item => <Formation Persprop={item}></Formation>)
-  return (
+import React, { Component } from 'react'
+import { Routes ,Route } from 'react-router-dom';
+import Navbar from './components/layouts/Navbar'
+import ProductList from './components/layouts/ProductList'
+import Cart from './components/layouts/Cart'
+import Default from './components/layouts/Default'
+import Modal from './components/elements/Modal'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
- <div>
-  <Menu></Menu>
+import './assets/css/App.css'
 
-<Container fluid>
-  <Row debug>
-    <Col  >
-    {PersDetail[0]}
-    </Col>
-    <Col >
-    {PersDetail[1]}
-    </Col>
-    </Row></Container>
-    <Container fluid>
-    <Row debug>
-    <Col >
-    {PersDetail[2]}
-    </Col>
-    <Col >{PersDetail[3]}</Col>
-  </Row>
-</Container>
- </div>
 
-  );
+class App extends Component {
+  render() {
+      return (
+          <>
+                <Navbar />
+                <Routes>
+                    <Route path="/" exact element={< ProductList/> } />
+                    <Route path="/cart" element={ <Cart/> } />
+                    <Route element={< Default/> } />
+                </Routes>
+                <Modal />
+          </>
+      )
+  }
 }
 
-export default App;
+export default App
