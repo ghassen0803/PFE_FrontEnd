@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 export default class Product extends Component {
     render() {
 
-        const {id, title, img, price, inCart} = this.props.product
+        const {id, title, img, prix_ttc, inCart} = this.props.product
 
         return (
             <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
@@ -19,7 +19,7 @@ export default class Product extends Component {
                                 className="img-container p-5"
                                 onClick={ () => value.handleDetail(id) }
                                 >
-                                    <Link to="/articles">
+                                    <Link to="/details">
                                         <img src={ img } alt="product" className="card-img-top" />
                                     </Link>
                                     <button
@@ -55,7 +55,7 @@ Product.propTypes = {
     product: PropTypes.shape({
         title   : PropTypes.string,
         img     : PropTypes.string,
-        price   : PropTypes.number,
+        prix_ttc   : PropTypes.number,
         brand   : PropTypes.string,
         inCart  : PropTypes.bool
     }).isRequired

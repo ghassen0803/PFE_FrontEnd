@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import SearchProduct from './SearchProduct'
-import Product from './Articles'
+import Product from './Product'
 import Title from '../elements/Title'
 import { ProductConsumer } from '../helpers/context'
 
-
-export default class ProductList extends Component {
+export default class FamilyList extends Component {
 
     render() {
 
@@ -31,7 +30,7 @@ export default class ProductList extends Component {
                                     const filterProducts = value.products.filter(product => {
                                         // turn the search words into lower case,
                                         // if nothing has been typed then return nothing will be returned
-                                        return product.title.toLowerCase().indexOf(searchWord.toLowerCase()) !== -1
+                                        return product.title?.toLowerCase().indexOf(searchWord?.toLowerCase()) !== -1
                                     })
 
                                     return (
